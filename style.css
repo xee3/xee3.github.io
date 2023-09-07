@@ -23,15 +23,6 @@
     --size: 500px;
   }
 }
-section {
-  background-color: #222;
-  position: absolute;
-  inset: 0;
-  display: flex;
-  place-content: center;
-  align-items: center;
-  overflow: hidden;
-}
 
 /* This is just to transition when you change the viewport size. */
 * {
