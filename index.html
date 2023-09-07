@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xedn</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <!-- Add the following line to include the reCAPTCHA script 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <script src="https://use.fontawesome.com/78bf35a965.js"></script>
+</head>
+<body>   
+    <section>
+        <div class="blobmain">
+            <div class="blob">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(171, 73, 103);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(160, 70, 104);"></stop>
+                    </linearGradient>
+                    </defs>
+                    <path fill="url(#gradient)">
+                        <animate attributeName="d"
+                        dur="10000ms"
+                        repeatCount="indefinite"
+                        values="M443,310Q393,370,339,409.5Q285,449,209.5,450.5Q134,452,109,381.5Q84,311,71.5,245.5Q59,180,108,134Q157,88,224.5,49.5Q292,11,344.5,69Q397,127,445,188.5Q493,250,443,310Z;
+                        M428,324.5Q428,399,356.5,425Q285,451,211.5,447.5Q138,444,83,387.5Q28,331,47.5,257Q67,183,112,136Q157,89,223.5,55Q290,21,364.5,56Q439,91,433.5,170.5Q428,250,428,324.5Z;
+                        M420.5,313Q400,376,342.5,412Q285,448,223.5,425.5Q162,403,103.5,364Q45,325,54.5,253.5Q64,182,97,112.5Q130,43,211.5,25.5Q293,8,366.5,49.5Q440,91,440.5,170.5Q441,250,420.5,313Z;
+                        M431.5,320.5Q418,391,355,438Q292,485,211,471.5Q130,458,106,384.5Q82,311,64.5,243.5Q47,176,97,123.5Q147,71,214.5,70Q282,69,344,94Q406,119,425.5,184.5Q445,250,431.5,320.5Z;
+                        M443,310Q393,370,339,409.5Q285,449,209.5,450.5Q134,452,109,381.5Q84,311,71.5,245.5Q59,180,108,134Q157,88,224.5,49.5Q292,11,344.5,69Q397,127,445,188.5Q493,250,443,310Z"></animate>
+                    </path>
+                </svg>
+            </div>
+            <!--glow-->
+            <div class="blob">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                    <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(171, 73, 103);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(160, 70, 104);"></stop>
+                    </linearGradient>
+                    </defs>
+                    <path fill="url(#gradient)">
+                        <animate attributeName="d"
+                        dur="10000ms"
+                        repeatCount="indefinite"
+                        values="M443,310Q393,370,339,409.5Q285,449,209.5,450.5Q134,452,109,381.5Q84,311,71.5,245.5Q59,180,108,134Q157,88,224.5,49.5Q292,11,344.5,69Q397,127,445,188.5Q493,250,443,310Z;
+                        M428,324.5Q428,399,356.5,425Q285,451,211.5,447.5Q138,444,83,387.5Q28,331,47.5,257Q67,183,112,136Q157,89,223.5,55Q290,21,364.5,56Q439,91,433.5,170.5Q428,250,428,324.5Z;
+                        M420.5,313Q400,376,342.5,412Q285,448,223.5,425.5Q162,403,103.5,364Q45,325,54.5,253.5Q64,182,97,112.5Q130,43,211.5,25.5Q293,8,366.5,49.5Q440,91,440.5,170.5Q441,250,420.5,313Z;
+                        M431.5,320.5Q418,391,355,438Q292,485,211,471.5Q130,458,106,384.5Q82,311,64.5,243.5Q47,176,97,123.5Q147,71,214.5,70Q282,69,344,94Q406,119,425.5,184.5Q445,250,431.5,320.5Z;
+                        M443,310Q393,370,339,409.5Q285,449,209.5,450.5Q134,452,109,381.5Q84,311,71.5,245.5Q59,180,108,134Q157,88,224.5,49.5Q292,11,344.5,69Q397,127,445,188.5Q493,250,443,310Z"></animate>
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="titleTop">
+            <img class="logo" src="logo.svg" alt="">
+            <div class="mainT2mobile">While we're busy weaving our digital tapestry, we'd love to hear from you</div>
+        </div>
+        <div class="titleCenter">
+            <div class="mainT2">While we're busy weaving our digital tapestry, we'd love to hear from you</div>
+            <div class="mainT1">Liked what you saw?</div>
+        </div>
+        <div class="titleBottom">
+            Intrigued? Contact us and let's get started<br>
+            <button class="contact" id="openPopupButton">Contact Us</button>
+        </div>
+    </section>
+    
+<!-- Add the contact popup HTML here -->
+<div class="popup" id="contactPopup">
+    <div class="popup-content">
+        <h2>Contact Options</h2>
+        <p>Contact us through email or WhatsApp</p>
+        <button class="contactButton" id="emailButton">Email</button>
+        <button class="contactButton" id="whatsappButton">WhatsApp</button>
+        <!-- Add the reCAPTCHA here 
+        <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>-->
+        <button class="close-popup" id="closePopupButton">Close</button>
+    </div>
+</div>
+
+    <!-- Add the JavaScript reference here -->
+    <script src="script.js"></script>
+
+</body>
+</html>
