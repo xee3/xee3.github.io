@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xedn</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <!-- Add the following line to include the reCAPTCHA script 
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+    <script src="https://use.fontawesome.com/78bf35a965.js"></script>
+</head>
+<body>   
+    <section>
+        <div class="gradient"></div>
+        <div class="titleTop">
+            <img class="logo" src="logo.svg" alt="">
+            <div class="mainT2mobile">While we're busy weaving our digital tapestry, we'd love to hear from you</div>
+        </div>
+        <div class="titleCenter">
+            <div class="mainT2">While we're busy weaving our digital tapestry, we'd love to hear from you</div>
+            <div class="mainT1">Liked what you saw?</div>
+        </div>
+        <div class="titleBottom">
+            Intrigued? Contact us and let's get started<br>
+            <button class="contact" id="openPopupButton">Contact Us</button>
+        </div>
+    </section>
+    
+<!-- Add the contact popup HTML here -->
+<div class="popup" id="contactPopup">
+    <div class="popup-content">
+        <h2>Contact Options</h2>
+        <p>Contact us through email or WhatsApp</p>
+        <button class="contactButton" id="emailButton">Email</button>
+        <button class="contactButton" id="whatsappButton">WhatsApp</button>
+        <!-- Add the reCAPTCHA here 
+        <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>-->
+        <button class="close-popup" id="closePopupButton">Close</button>
+    </div>
+</div>
+
+    <!-- Add the JavaScript reference here -->
+    <script src="script.js"></script>
+
+</body>
+</html>
