@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 section {
@@ -25,11 +26,14 @@ section {
   z-index: 1; /* Ensure blobs are behind the content */
 }
 
-.blob:nth-child(2) {
+.blob {
   position: absolute;
   width: 400px;
   height: 400px;
-  filter: blur(50px); /* Apply blur to the entire blob */
+}
+
+.blob:nth-child(2) {
+  filter: blur(50px); /* Apply blur to the second blob */
 }
 
 .blob .blob-svg {
