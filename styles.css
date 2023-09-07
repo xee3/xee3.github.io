@@ -29,10 +29,6 @@ section {
     height: 400px;
 }
 
-.blob:nth-child(2) {
-    -webkit-filter: blur(50px); /* Apply blur to the second blob for WebKit */
-    filter: blur(50px); /* Standard filter property */
-}
 
 .titleTop {
     position: absolute;
